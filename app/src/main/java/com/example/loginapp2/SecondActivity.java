@@ -59,6 +59,7 @@ public class SecondActivity extends AppCompatActivity {
                             for(int i=size;size>=which;i--){
                                 arrayList.remove(i);
                                 //cool
+                                //second line is added
 
                             }
                         arrayAdapter.notifyDataSetChanged();
