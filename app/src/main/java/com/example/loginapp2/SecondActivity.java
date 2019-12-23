@@ -58,6 +58,7 @@ public class SecondActivity extends AppCompatActivity {
                             int size=arrayList.size();
                             for(int i=size;size>=which;i--){
                                 arrayList.remove(i);
+                                //cool
 
                             }
                         arrayAdapter.notifyDataSetChanged();
